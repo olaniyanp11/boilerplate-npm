@@ -1,16 +1,26 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"author": "permac",
-	
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://idontknow/todo.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "permac",
+  "description": "A project that does something awesome",
+  "keywords": [
+    "descriptive",
+    "related",
+    "words",
+    "freecodecamp",
+    "hello"
+  ],
+  "dependencies": {
+    "express": "^4.14.0",
+    "@freecodecamp/example": "1.1.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  },
+  "license": "MIT",
+  "version": "1.2.0"
 }
